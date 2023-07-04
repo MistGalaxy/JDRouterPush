@@ -23,7 +23,8 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run JDRouterPush
       env:
-          WSKEY: 'AAJknvdOAEBP__tixPzd0Mahp7NvKis_w7RZirGewTReMYuTTgwusA8kEvEVV5uAEbYtYm_ASrDhfvlPtG9wOwhaU59UvXIG'
+          WSKEY: 'AAJkohVJAEBANMQILAvhOF0hPK0Yb88hXU6L8XQQ0oNAbO2sYGmE_RNdc2SbEoZnhMspjaiCoRPcAAHn0-4mlk-Rk8ZKqgtX'
+          
           # ${{ secrets.WSKEY }}
           DEVICENAME: ${{ secrets.DEVICENAME }}
           RECORDSNUM: ${{ secrets.RECORDSNUM }}
